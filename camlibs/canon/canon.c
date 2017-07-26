@@ -307,6 +307,8 @@ const struct canonCamModelData models[] = {
         {"Canon:EOS Kiss Digital N (normal mode)",              CANON_CLASS_6,  0x04A9, 0x30ee, CAP_EXP, SL_MOVIE_LARGE, SL_THUMB_CR2, SL_PICTURE, NULL},
         /* 30ef is EOS 350D/Digital Rebel XT/EOS Kiss Digital N in PTP mode. */
         {"Canon:EOS 5D (normal mode)",          CANON_CLASS_6,  0x04A9, 0x3101, CAP_SUP, SL_MOVIE_LARGE, SL_THUMB, SL_PICTURE, NULL},
+        {"Canon:EOS 5D MK2 (canon camlib)",          CANON_CLASS_6,  0x04A9, 0x3199, CAP_SUP, SL_MOVIE_LARGE, SL_THUMB, SL_PICTURE, NULL},
+        // {"Canon:EOS 5D Mark II",        0x04a9, 0x3199, PTP_CAP|PTP_CAP_PREVIEW|PTPBUG_DELETE_SENDS_EVENT},
 
 #if 0
 /* reportedly not working ... comment out for now - Marcus */
